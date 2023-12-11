@@ -23,6 +23,22 @@ extensions = [
     'furo.sphinxext',
 ]
 
+# -- Options for extlinks ----------------------------------------------------
+#
+
+extlinks = {
+    "pypi": ("https://pypi.org/project/%s/", "%s"),
+}
+
+# -- Options for intersphinx -------------------------------------------------
+#
+
+intersphinx_mapping = {
+    "python": ("https://docs.python.org/3", None),
+    "sphinx": ("https://www.sphinx-doc.org/en/master", None),
+}
+
+
 templates_path = ['_templates']
 exclude_patterns = []
 
