@@ -33,7 +33,7 @@ extensions = [                  # mathon - 13dec2023
     "sphinx.ext.viewcode",
     # Our custom extension, only meant for Furo's own documentation.
     #"furo.sphinxext",
-    "furo",
+    #"furo",
     # External stuff
     "myst_parser",
     "sphinx_copybutton",
